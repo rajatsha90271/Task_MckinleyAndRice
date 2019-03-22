@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+// thumbnail constants
 let imageArr = ["Gully_Boy","Luka_Chuppi","Nai_Lagda"]
 
 

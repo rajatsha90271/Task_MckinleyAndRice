@@ -14,6 +14,7 @@ class MediaCollectionViewCell: UICollectionViewCell {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        // collectionview cell layout
         self.contentView.layer.cornerRadius = 5.0
         self.layer.shadowPath = UIBezierPath(rect: self.frame).cgPath
         self.layer.shadowColor = UIColor.black.cgColor

@@ -13,7 +13,7 @@ import AVKit
 private let reuseIdentifier = "mediaCollectionViewCell"
 class HomeViewController: UIViewController {
     
-    
+    // collectionView Variable
     @IBOutlet var collectionView: UICollectionView!
     
     
@@ -29,6 +29,7 @@ class HomeViewController: UIViewController {
         super.viewWillDisappear(animated)
     }
     func launchMediaPlayerWith(mediaUrl:String){
+        // Launch AvPlayer View Controller when
         let avplayerController = AVPlayerViewController()
         let asset = AVAsset(url: URL(fileURLWithPath: Bundle.main.path(forResource: mediaUrl, ofType: ".mp3")!))
         let playerItem = AVPlayerItem(asset: asset)

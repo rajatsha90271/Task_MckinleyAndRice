@@ -10,8 +10,8 @@
 		0417A74922255B21008E28EF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0417A74822255B21008E28EF /* WebKit.framework */; };
 		0417A74B22257729008E28EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0417A74A22257729008E28EF /* CoreData.framework */; };
 		042FE01D2244E7B000F16EE9 /* Luka_Chuppi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042FE01A2244E7AB00F16EE9 /* Luka_Chuppi.mp3 */; };
-		042FE01E2244E7B000F16EE9 /* Gully_Boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042FE01B2244E7AF00F16EE9 /* Gully_Boy.mp3 */; };
 		042FE01F2244E7B000F16EE9 /* Nai_Lagda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042FE01C2244E7B000F16EE9 /* Nai_Lagda.mp3 */; };
+		042FE0222244F15400F16EE9 /* Gully_Boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042FE0212244F15400F16EE9 /* Gully_Boy.mp3 */; };
 		046BCB2521E00489003F468E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BCB2421E00489003F468E /* AppDelegate.swift */; };
 		046BCB2A21E00489003F468E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046BCB2821E00489003F468E /* Main.storyboard */; };
 		046BCB2C21E0048B003F468E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046BCB2B21E0048B003F468E /* Assets.xcassets */; };
@@ -26,9 +26,9 @@
 		0417A74822255B21008E28EF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		0417A74A22257729008E28EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		042FE01A2244E7AB00F16EE9 /* Luka_Chuppi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Luka_Chuppi.mp3; sourceTree = "<group>"; };
-		042FE01B2244E7AF00F16EE9 /* Gully_Boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gully_Boy.mp3; sourceTree = "<group>"; };
 		042FE01C2244E7B000F16EE9 /* Nai_Lagda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nai_Lagda.mp3; sourceTree = "<group>"; };
 		042FE0202244E99D00F16EE9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		042FE0212244F15400F16EE9 /* Gully_Boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gully_Boy.mp3; sourceTree = "<group>"; };
 		046BCB2121E00489003F468E /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046BCB2421E00489003F468E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046BCB2921E00489003F468E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		0416A3A021E2980500D5FD94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				042FE01B2244E7AF00F16EE9 /* Gully_Boy.mp3 */,
+				042FE0212244F15400F16EE9 /* Gully_Boy.mp3 */,
 				042FE01A2244E7AB00F16EE9 /* Luka_Chuppi.mp3 */,
 				042FE01C2244E7B000F16EE9 /* Nai_Lagda.mp3 */,
 				046BCB4221E0B200003F468E /* Constants.swift */,
@@ -191,11 +191,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				046BCB2F21E0048B003F468E /* LaunchScreen.storyboard in Resources */,
-				042FE01E2244E7B000F16EE9 /* Gully_Boy.mp3 in Resources */,
 				046BCB2C21E0048B003F468E /* Assets.xcassets in Resources */,
 				042FE01F2244E7B000F16EE9 /* Nai_Lagda.mp3 in Resources */,
 				042FE01D2244E7B000F16EE9 /* Luka_Chuppi.mp3 in Resources */,
 				046BCB2A21E00489003F468E /* Main.storyboard in Resources */,
+				042FE0222244F15400F16EE9 /* Gully_Boy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
